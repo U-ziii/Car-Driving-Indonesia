@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGetAsync("https://cdn.1intan99.my.id/files/2025/loaders/cdid.lua"))()
+    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/DeadScripter/Deadhub/refs/heads/main/DeadLoader.lua"))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
